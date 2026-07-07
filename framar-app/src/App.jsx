@@ -1,8 +1,14 @@
-export default function App() {
+import "./App.css";
+
+function App() {
   return (
-    <div>
-      <h1>🔥 FRAMAR AI IS WORKING 🔥</h1>
-      <p>Hello Yutman! We fixed React.</p>
+    <div className="app">
+      <h1>🤖 FRAMAR AI</h1>
+      <p>Welcome to the future of AI.</p>
+
+      <button>Get Started</button>
     </div>
   );
 }
+
+export default App;
